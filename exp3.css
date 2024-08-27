@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    width: 25rem;
+    border: 1px solid #ddd; /* Optional: for visual clarity */
+    padding: 1rem; /* Optional: for spacing */
+}
+
+.card img {
+    height: 10vh; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 1rem; /* Space between image and text */
+}
+
+.card-body {
+    flex: 1; /* Allows the text to take remaining space */
+}
